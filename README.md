@@ -34,6 +34,6 @@ Background updates based on weather conditions.
 **Clone this repository**:
 
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/ZabethembaN/SkySphere.git
  
 cd SKYSPHERE 
