@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>SkySphere</h1>
+        <form>
+            <input type="text" id="city-input" placeholder="Enter City" aria-label="City Input">
+            <label>
+                <input type="checkbox" id="unit-toggle"> Show in Fahrenheit
+            </label>
+            <input type="submit" value="Get Weather" aria-label="Submit City">
+        </form>
+        <div id="weather-data"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
